@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		DFB2643222E6EB5E0037E57E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2643122E6EB5E0037E57E /* AppDelegate.swift */; };
-		DFB2643422E6EB5E0037E57E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2643322E6EB5E0037E57E /* ViewController.swift */; };
 		DFB2643722E6EB5E0037E57E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB2643522E6EB5E0037E57E /* Main.storyboard */; };
 		DFB2643922E6EB660037E57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB2643822E6EB660037E57E /* Assets.xcassets */; };
 		DFB2643C22E6EB660037E57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB2643A22E6EB660037E57E /* LaunchScreen.storyboard */; };
 		DFB2644722E6EB660037E57E /* CopaAmericav2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2644622E6EB660037E57E /* CopaAmericav2Tests.swift */; };
 		DFB2645222E6EB660037E57E /* CopaAmericav2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2645122E6EB660037E57E /* CopaAmericav2UITests.swift */; };
+		DFB2646022E6EE320037E57E /* Partido.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2645F22E6EE320037E57E /* Partido.swift */; };
+		DFB2646222E6EE860037E57E /* PartidoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2646122E6EE860037E57E /* PartidoService.swift */; };
+		DFB2646422E6EF1A0037E57E /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2646322E6EF1A0037E57E /* MainCollectionViewCell.swift */; };
+		DFE38B7022E764BB0063A13F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE38B6F22E764BB0063A13F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		DFB2642E22E6EB5E0037E57E /* CopaAmericav2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopaAmericav2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB2643122E6EB5E0037E57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFB2643322E6EB5E0037E57E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFB2643622E6EB5E0037E57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFB2643822E6EB660037E57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB2643B22E6EB660037E57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		DFB2644D22E6EB660037E57E /* CopaAmericav2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopaAmericav2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB2645122E6EB660037E57E /* CopaAmericav2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopaAmericav2UITests.swift; sourceTree = "<group>"; };
 		DFB2645322E6EB670037E57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB2645F22E6EE320037E57E /* Partido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partido.swift; sourceTree = "<group>"; };
+		DFB2646122E6EE860037E57E /* PartidoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartidoService.swift; sourceTree = "<group>"; };
+		DFB2646322E6EF1A0037E57E /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFE38B6F22E764BB0063A13F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				DFB2643122E6EB5E0037E57E /* AppDelegate.swift */,
-				DFB2643322E6EB5E0037E57E /* ViewController.swift */,
+				DFE38B6F22E764BB0063A13F /* MainViewController.swift */,
+				DFB2646322E6EF1A0037E57E /* MainCollectionViewCell.swift */,
+				DFB2646122E6EE860037E57E /* PartidoService.swift */,
+				DFB2645F22E6EE320037E57E /* Partido.swift */,
 				DFB2643522E6EB5E0037E57E /* Main.storyboard */,
 				DFB2643822E6EB660037E57E /* Assets.xcassets */,
 				DFB2643A22E6EB660037E57E /* LaunchScreen.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFB2643422E6EB5E0037E57E /* ViewController.swift in Sources */,
 				DFB2643222E6EB5E0037E57E /* AppDelegate.swift in Sources */,
+				DFB2646422E6EF1A0037E57E /* MainCollectionViewCell.swift in Sources */,
+				DFB2646022E6EE320037E57E /* Partido.swift in Sources */,
+				DFB2646222E6EE860037E57E /* PartidoService.swift in Sources */,
+				DFE38B7022E764BB0063A13F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
